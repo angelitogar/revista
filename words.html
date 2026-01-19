@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/words.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/images.png">
+
+    <!-- JavaScript -->
+    <script type="module"  src="js/words.js" defer></script>
+
+    <title>Revista</title>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="header-inner">
+
+            <!-- Logo y título -->
+            <div class="header-left">
+                <a href="index.html">
+                    <img src="images/images.png" class="logo" alt="Logo de la Revista">
+                </a>
+                <a href="index.html">
+                    <h1>REVISTA</h1>
+                </a>
+            </div>
+
+            <!-- Navegación principal con imágenes -->
+            <nav class="header-images">
+
+                <div class="image-item">
+                    <img src="images/Maradona.jpg" alt="Noticias sobre Maradona">
+                    <a href="gato.html" class="nav-item">Gato</a>
+                </div>
+
+                <div class="image-item">
+                    <img src="images/1000069094.jpg" alt="Archivo histórico">
+                    <a href="crosswordindex.html" class="nav-item">Crossword</a>
+                </div>
+
+                <div class="image-item">
+                    <img src="images/Bonsai.jpg" alt="Sección de Arte">
+                    <a href="index.html" class="nav-item">Revista</a>
+                </div>
+
+                <div class="image-item">
+                    <img src="images/cute-dogs.jpg" alt="Categorías generales">
+                    <a href="numbers.html" class="nav-item">Numbers</a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- =============== FIN HEADER =============== -->
+
+<div class="contenedor-titulo">
+    <h1>Poemario diario</h1>
+    
+    <dialog id="contrasenia">
+    <h3>Escribe la contraseña</h3>
+    <input type="text" id="textoModal" placeholder="...">
+    <button id="botoncontrasenia" class="btn-ok">ok</button>
+</dialog>
+
+    <dialog id="setter">
+    <h3>Empieza escribiendo el poema.</h3>
+    <input type="text" id="writePoem" placeholder="...">
+    <button id="botonpoema" class="btn-ok">ok</button>
+    </dialog>
+
+    <dialog id="set-words">
+    <h3>Escribe las palabras que deseas se coloquen en el puzzle</h3>
+    <input type="text" id="words-saved" placeholder="...">
+    <button id="botonpalabras" class="btn-ok">ok</button>
+    </dialog>
+
+    <dialog id="select-letters">
+        <h3>Pulsa las letras que quieres sean intersectadas</h3>
+        <button id="botonfinal" class="btn-ok">ok</button>
+    </dialog>       
+
+    <button id="createbtn" class="btn-accion"><3</button>
+</div>
+
+    <!-- ================= JUEGO ================= -->
+    <div class="layout-juego">
+
+        <!-- Grid principal del juego -->
+        <div class="contenedor">
+        </div>  
+
+        <div class="poema">
+        </div>
+
+    </div>
+    <!-- =============== FIN JUEGO =============== -->
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <a href="aboutus.html">About us</a>
+        <a href="aboutus.html">Contact</a>
+    </footer>
+    <!-- =============== FIN FOOTER =============== -->
+
+</body>
+</html>

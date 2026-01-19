@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/crossword.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/images.png">
+
+    <!-- JavaScript -->
+    <script src="js/crossword.js" defer></script>
+
+    <title>Revista</title>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="header-inner">
+
+            <!-- Logo y título -->
+            <div class="header-left">
+                <a href="index.html">
+                    <img src="images/images.png" class="logo" alt="Logo de la Revista">
+                </a>
+                <a href="index.html">
+                    <h1>REVISTA</h1>
+                </a>
+            </div>
+
+            <!-- Navegación principal con imágenes -->
+            <nav class="header-images">
+
+                <div class="image-item">
+                    <img src="images/Maradona.jpg" alt="Noticias sobre Maradona">
+                    <a href="gato.html" class="nav-item">Gato</a>
+                </div>
+
+                <div class="image-item">
+                    <img src="images/1000069094.jpg" alt="Archivo histórico">
+                    <a href="index.html" class="nav-item">Revista</a>
+                </div>
+
+                <div class="image-item">
+                    <img src="images/Bonsai.jpg" alt="Sección de Arte">
+                    <a href="words.html" class="nav-item">Words</a>
+                </div>
+
+                <div class="image-item">
+                    <img src="images/cute-dogs.jpg" alt="Categorías generales">
+                    <a href="numbers.html" class="nav-item">Numbers</a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- =============== FIN HEADER =============== -->
+
+
+    <!-- ================= JUEGO ================= -->
+    <div class="layout-juego">
+
+        <!-- Grid principal del juego -->
+        <div class="contenedor-grid">
+            <div id="tablero"></div>
+        </div>
+
+    <!-- PANEL LATERAL -->
+    <div class="panel-lateral">
+
+        <div class="info-grupo">
+            <div class="dato">
+                <span class="etiqueta">TIEMPO</span>
+                <span class="valor" id="tiempo">00:00</span>
+            </div>
+
+            <div class="dato">
+                <span class="etiqueta">PUNTAJE</span>
+                <span class="valor" id="puntaje">0</span>
+            </div>
+        </div>
+
+        <div class="acciones-grupo">
+            <button id="hintbtn" class="btn-accion">Pista</button>
+            <button id="pausebtn" class="btn-accion">Pausa</button>
+            <button id="reloadbtn" class="btn-accion btn-reiniciar">Jugar de nuevo</button>
+        </div>
+
+        <div class="clues">
+            <h3><span class="clue-orientation"></span></h3>
+        </div>
+
+    </div>
+
+    </div>
+    <!-- =============== FIN JUEGO =============== -->
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <a href="aboutus.html">About us</a>
+        <a href="aboutus.html">Contact</a>
+    </footer>
+    <!-- =============== FIN FOOTER =============== -->
+
+</body>
+</html>
